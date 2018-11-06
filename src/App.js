@@ -30,3 +30,26 @@ class App extends Component {
 // import and export are pairs; ES6 module syntax
 // export defaultl when importing, do the import Module from './filename' in some other file
 export default App;
+
+
+
+
+// // DOING WORK WITH FUNCTIONAL COMPONENTS 
+// // if do this, comment out --> import Text from "./Text.jsx"; and add in --> import ReactDOM from 'react-dom';
+
+// function Text(props) {
+//   return (
+//       <div className={Text + props.color}>{props.value}!</div>
+//   )
+// };
+// function App() {
+//   return (
+//     <Text color="orange" value="hsbefk">
+//       <h1>Hello</h1>
+//     </Text>
+//   )
+// };
+// ReactDOM.render(
+//   <App/>,
+//   document.getElementById("root")
+// );
