@@ -1,3 +1,5 @@
+// You can also name it Text.js; .jsx extension signals that what lies within is a react component with JSX syntax; some text editors will provide better syntax highlighting with the .jsx extension.
+
 // import/export is new feature in js (new and importevd), not just react; part of regular js syntax dont see often because browsers dont support syntax much yet; create-react-app will convert points from import statements so this code can run in the broswer
 import React, { Component } from 'react';
 
