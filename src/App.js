@@ -1,5 +1,6 @@
 // in node js, it would be require/module.exports (if someone else requires package, the stuff inside would be all the methods and when person imports, it would be the const package = req("ekr") then package.methdo() and yadayada); the pairs here are iport/export 
 import React, { Component } from 'react'; // base class from react library; this is importing certain parts of the module; runtime that react will run from this file
+import ReactDOM from 'react-dom';
 import logo from './giffyGif.gif';
 import './App.css';
 import Text from "./Text.jsx";
@@ -34,9 +35,9 @@ export default App;
 
 
 
-// // DOING WORK WITH FUNCTIONAL COMPONENTS 
-// // if do this, comment out --> import Text from "./Text.jsx"; and add in --> import ReactDOM from 'react-dom';
 
+// DOING WORK WITH FUNCTIONAL COMPONENTS 
+// if do this, comment out --> import Text from "./Text.jsx"; and add in --> import ReactDOM from 'react-dom';
 // function Text(props) {
 //   return (
 //       <div className={Text + props.color}>{props.value}!</div>
@@ -45,11 +46,8 @@ export default App;
 // function App() {
 //   return (
 //     <Text color="orange" value="hsbefk">
-//       <h1>Hello</h1>
+//       <h1 className="Testing">Hello</h1>
 //     </Text>
 //   )
 // };
-// ReactDOM.render(
-//   <App/>,
-//   document.getElementById("root")
-// );
+// ReactDOM.render(<App/>, document.getElementById("root"));
